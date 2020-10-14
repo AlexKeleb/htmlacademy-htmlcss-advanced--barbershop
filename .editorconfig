@@ -8,6 +8,8 @@
 # на http://editorconfig.org и в разделе «Download a Plugin»
 # скачайте дополнение для вашего редактора.
 
+# http://editorconfig.org
+
 root = true
 
 [*]
@@ -20,3 +22,6 @@ trim_trailing_whitespace = true
 
 [*.md]
 trim_trailing_whitespace = false
+
+[*.svg]
+insert_final_newline = false
